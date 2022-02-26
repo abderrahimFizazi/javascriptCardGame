@@ -1,0 +1,50 @@
+.show{
+    background-image: url('heart.jpg');
+    background-size: cover;  
+    width:200px;
+    height: 200px;
+}
+.container{
+    display: grid;
+    border:5px solid black;
+    margin: auto;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width:70%;
+    height: 500px;
+    text-align: center;
+    font-size: 40px;
+    color: red;
+    font-family: cursive;
+    
+
+}
+form{
+    margin: auto;
+    background: purple;
+    height: 50px;
+    display: flex;
+    line-height: 50px;
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+}
+form input[type=number]{
+    width: 100px;
+}
+form input[type=number],form input[type=button]{
+    width: 100px;
+    height: 20px;
+    background-color: azure;
+    color: darkblue;
+    height: 25px;
+}
+.title{
+    font-family: cursive;
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+    background-color: purple;
+    color: red;
+    border-bottom: solid 3px black
+}
